@@ -276,9 +276,6 @@ img.scale, img.responsive {
   max-width: 100%;
   height: auto; }
 
-.hidden {
-  display: none !important; }
-
 a {
   text-decoration: none;
   color: inherit; }
@@ -287,38 +284,20 @@ body {
   font-family: Oswald;
   font-size: 24px; }
 
-div.landing {
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  background-color: #f1f2f2;
-  width: 100vw;
-  height: 100vh;
-  /*top: 10%;*/
-  /*left: 4%;*/ }
-
-h1.landing {
+h1.element {
   text-align: center;
   padding-top: 20%;
   color: #e6338a;
   line-height: 90%;
+  text-transform: uppercase;
   /*left: 4%;*/
   /*vertical-align: middle;*/
   font-size: 7.5em;
   letter-spacing: 10px; }
 
-div.bio {
-  position: absolute;
-  text-align: center;
-  width: 100vw;
-  height: 130vh;
-  top: 100%;
-  background-color: #c0ddf5; }
-
 h1.bio {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   padding-top: 10%;
   color: #3E3C41;
   font-size: 3.5em;
@@ -348,14 +327,13 @@ h3.work {
   width: 30%; }
 
 a:hover {
-  border-bottom: 1px solid;
-  border-top: 1px solid;
+  border-bottom: 1px dashed;
   text-shadow: none; }
 
 p.work {
   font-size: 0.8em;
-  padding-top: 1%;
-  letter-spacing: 1px; }
+  padding-top: 1.5%;
+  letter-spacing: 2px; }
 
 .images {
   height: 350px;
@@ -372,29 +350,68 @@ img {
   display: inline-block; }
 
 /****** divs ********/
+div.landing {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f1f2f2;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  /*left: 4%;*/ }
+
+div.bio {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  top: 100%;
+  background-color: RGBA(173, 204, 232, 0.7); }
+  div.bio h1 {
+    vertical-align: middle; }
+
 div.work-1 {
   position: absolute;
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 210%;
-  background-color: #f1f2f2; }
+  top: 200%;
+  background-color: RGBA(221, 225, 246, 1); }
 
 div.work-2 {
   position: absolute;
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 310%;
-  background-color: #a5d1ab; }
+  top: 300%;
+  background-color: RGBA(209, 237, 241, 1); }
 
 div.work-3 {
   position: absolute;
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 410%;
-  background-color: #c0ddf5; }
+  top: 400%;
+  background-color: RGBA(255, 240, 186, 0.3); }
+
+div.footer {
+  background-color: #f1f2f2;
+  display: inline-block;
+  padding-top: 4px;
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  bottom: 0px; }
+  div.footer a {
+    padding-left: 18px; }
+
+a.footer:hover {
+  color: #e6338a;
+  border: none; }
+
+a.img:hover {
+  border-bottom: none; }
 
 /** side pages **/
 /** close transition **/

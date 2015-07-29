@@ -1,13 +1,15 @@
 // COLORS FOR STELLA'S PORTFOLIO //
 $gray: #afafaf;
 $darkGray: #3E3C41;
-$blue: #c0ddf5;
-$pink: #f8ccd9;
-$accentGreen: #33E634;
+$blue: RGBA(173,204,232,0.7);
+$orange: RGBA(255,240,186,0.3);
+// $pink: #f8ccd9;
 $accentPink: #e6338a;
-$green: #a5d1ab;
-$orange: #fbcf8c;
 $white: #f1f2f2;
+$violet: RGBA(221,225,246,1);
+// $mint: RGBA(216,254,240,0.5);
+$green: RGBA(209,237,241,1);
+// $peach: #F3B196;
 
 
 
@@ -15,4 +17,3 @@ $white: #f1f2f2;
 // FONTS FOR STELLA'S PORTFOLIO //
 @import url('http://fonts.googleapis.com/css?family=Oswald:300');
 @import url('http://fonts.googleapis.com/css?family=EB+Garamond');
-

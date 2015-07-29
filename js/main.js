@@ -1,28 +1,41 @@
-// $(document).ready(function() {
-//  console.log(" you can do this !");
+$(document).ready(function() {
+ console.log(" you can do this !");
+});
+
+$(function(){
+        $(".element").typed({
+            strings: ["hello world"],
+            typeSpeed: 100,
+            startDelay: 800,
+            backDelay: 4000,
+            backSpeed: 100,
+            loop: true,
+            showCursor: false,
+        });
+    });
 
 
 /**** open button ****/
- $("#work").on("click", function() {
-  $(".work").toggleClass("active");
-  // $(".work-open").slideToggle("slow");
-  $(".introduction").toggleClass("pushUp", 10, "easeIn");
- });
-
- $("#about").on("click", function() {
-  $(".about").toggleClass("active");
-  $(".introduction").toggleClass("pushUp", 10, "easeIn");
- });
-
- /**** close button ****/
- $(".close").on("click", function() {
-  $(".work").removeClass("active");
-  $(".introduction").removeClass("pushUp", 10, "easeIn");
-
-  $(".about").removeClass("active");
-  $(".introduction").removeClass("pushUp", 10, "easeIn");
- });
-
+ // $("#work").on("click", function() {
+ //  $(".work").toggleClass("active");
+ //  // $(".work-open").slideToggle("slow");
+ //  $(".introduction").toggleClass("pushUp", 10, "easeIn");
+ // });
+ //
+ // $("#about").on("click", function() {
+ //  $(".about").toggleClass("active");
+ //  $(".introduction").toggleClass("pushUp", 10, "easeIn");
+ // });
+ //
+ // /**** close button ****/
+ // $(".close").on("click", function() {
+ //  $(".work").removeClass("active");
+ //  $(".introduction").removeClass("pushUp", 10, "easeIn");
+ //
+ //  $(".about").removeClass("active");
+ //  $(".introduction").removeClass("pushUp", 10, "easeIn");
+ // });
+ //
 
 
  // var disableScroll = function() {

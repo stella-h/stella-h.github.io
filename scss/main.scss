@@ -1,13 +1,11 @@
 @import 'utility.scss';
 @import 'reset.scss';
 @import 'mediaquery.scss';
-.hidden {
-    display: none!important;
-}
 
 a {
   text-decoration: none;
   color: inherit;
+
 }
 
 // .noScroll {
@@ -20,22 +18,13 @@ body {
   font-size: 24px;
 }
 
-div.landing {
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  background-color: $white;
-  width: 100vw;
-  height: 100vh;
-  /*top: 10%;*/
-  /*left: 4%;*/
-}
-h1.landing {
+h1.element {
   // font-family: EB Garamond;
   text-align: center;
   padding-top: 20%;
   color: $accentPink;
   line-height: 90%;
+  text-transform: uppercase;
   // top: 50%;
   /*left: 4%;*/
   /*vertical-align: middle;*/
@@ -43,19 +32,11 @@ h1.landing {
   letter-spacing: 10px;
 }
 
-div.bio {
-  position: absolute;
-  text-align: center;
-  width: 100vw;
-  height: 130vh;
-  top: 100%;
-  background-color: $blue;
-}
+
 h1.bio {
   // font-family: EB Garamond;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   padding-top: 10%;
   color: $darkGray;
   font-size: 3.5em;
@@ -89,16 +70,16 @@ h3.work {
 }
 
 a:hover {
-  border-bottom: 1px solid;
-  border-top: 1px solid;
+  border-bottom: 1px dashed;
+  // border-top: 1px solid;
   text-shadow: none;
 }
 
 
 p.work {
     font-size:0.8em;
-    padding-top: 1%;
-    letter-spacing: 1px;
+    padding-top: 1.5%;
+    letter-spacing: 2px;
 }
 
 
@@ -159,13 +140,47 @@ display: inline-block;
 
 /****** divs ********/
 
+// div.header {
+//   position: absolute;
+//   top: 0%;
+//   background-color: $green;
+//   width: 100vw;
+//   height: 6vh;
+//   .fix-search & {
+//     background: #eee;
+//   }
+// }
+
+div.landing {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $white;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  /*left: 4%;*/
+}
+
+div.bio {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  top: 100%;
+  background-color: $blue;
+  h1 {
+    vertical-align: middle;
+  }
+}
+
 div.work-1 {
   position: absolute;
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 210%;
-  background-color: $white;
+  top: 200%;
+  background-color: $violet;
 }
 
 div.work-2 {
@@ -173,7 +188,7 @@ div.work-2 {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 310%;
+  top: 300%;
   background-color: $green;
 }
 
@@ -182,9 +197,36 @@ div.work-3 {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  top: 410%;
-  background-color: $blue;
+  top: 400%;
+  background-color: $orange;
 }
+
+
+div.footer {
+  background-color: $white;
+  display: inline-block;
+  padding-top: 4px;
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  bottom:0px;
+
+  a {
+    padding-left: 18px;
+  }
+}
+
+a.footer:hover {
+  color: $accentPink;
+  border: none;
+}
+
+
+a.img:hover {
+    border-bottom: none;
+}
+
 
 
 
