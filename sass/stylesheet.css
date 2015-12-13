@@ -362,6 +362,7 @@ a {
   height: 100vh;
   text-align: center;
   top: 0%;
+  height: 130vh;
   background-color: #f1f2f2;
 }
 
@@ -413,4 +414,27 @@ img {
   max-height: 100%;
   margin-top: 3%;
   box-shadow: 2px 2px 5px #afafaf;
+}
+
+.footer {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  top: 0%;
+  height: 7vh;
+  background-color: #f1f2f2;
+  top: 93%;
+  bottom: 0px;
+  position: fixed;
+}
+
+.footer a {
+  color: #3E3C41;
+  font-size: 1.4em;
+  padding-left: 10px;
+}
+
+.footer a:hover {
+  color: #e6338a;
+  border: none;
 }

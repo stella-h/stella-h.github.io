@@ -49,6 +49,7 @@ a {
 
 .work-4 {
   @include section-size;
+  height: 130vh;
   background-color: $white;
 }
 
@@ -102,4 +103,24 @@ img {
     max-height: 100%;
     margin-top: 3%;
     box-shadow: 2px 2px 5px #afafaf;
+}
+
+.footer {
+  @include section-size;
+  height: 7vh;
+  background-color: $white;
+  top: 93%;
+  bottom: 0px;
+  position: fixed;
+  
+  a { 
+    color: $darkGray;
+    font-size: 1.4em;
+    padding-left: 10px;
+  }
+
+  a:hover {
+    color: $accentPink;
+    border: none;
+  }
 }
