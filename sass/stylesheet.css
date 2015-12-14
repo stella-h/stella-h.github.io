@@ -328,6 +328,7 @@ a {
   height: 100vh;
   text-align: center;
   top: 0%;
+  height: 105vh;
   background-color: RGBA(173, 204, 232, 0.7);
 }
 
@@ -420,7 +421,9 @@ a {
   color: #3E3C41;
   letter-spacing: 2px;
   margin: auto;
-  font-size: 1.4em;
+  font-size: 1em;
+  line-height: 2;
+  margin: 28px;
 }
 
 .work--tools {
@@ -430,6 +433,7 @@ a {
 }
 
 a:hover {
+  color: #e6338a;
   border-bottom: 1px dashed;
   text-shadow: none;
 }
@@ -459,7 +463,7 @@ img {
 
 .footer a {
   color: #3E3C41;
-  font-size: 1.4em;
+  font-size: 1.5em;
   padding-left: 10px;
 }
 

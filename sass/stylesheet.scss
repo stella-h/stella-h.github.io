@@ -44,6 +44,7 @@ a {
 
 .biography {
   @include section-size;
+  height: 105vh;
   background-color: $blue;
 }
 
@@ -103,7 +104,9 @@ a {
 
 .biography--description {
  @include description;
- font-size: 1.4em; 
+ font-size: 1em;
+ line-height: 2;
+ margin: 28px; 
 }
 
 .work--tools {
@@ -113,6 +116,7 @@ a {
 }
 
 a:hover {
+  color: $accentPink;
   border-bottom: 1px dashed;
   text-shadow: none;
 }
@@ -140,7 +144,7 @@ img {
   
   a { 
     color: $darkGray;
-    font-size: 1.4em;
+    font-size: 1.5em;
     padding-left: 10px;
   }
 
