@@ -363,7 +363,16 @@ a {
   text-align: center;
   top: 0%;
   height: 130vh;
-  background-color: #f1f2f2;
+  background-color: RGBA(209, 237, 241, 1);
+}
+
+.work-5 {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  top: 0%;
+  height: 140vh;
+  background-color: RGBA(173, 204, 232, 0.7);
 }
 
 h1.welcome {

@@ -50,7 +50,13 @@ a {
 .work-4 {
   @include section-size;
   height: 130vh;
-  background-color: $white;
+  background-color: $green;
+}
+
+.work-5 {
+  @include section-size;
+  height: 140vh;
+  background-color: $blue;
 }
 
 h1.welcome {
