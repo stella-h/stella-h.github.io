@@ -20,12 +20,21 @@ a {
     top: 0%;
 }
 
-@mixin headings {
+@mixin heading {
   text-align: center;
   text-transform: uppercase;
   padding-top: 2%;
   color: $accentPink;
   letter-spacing: 5px;
+}
+
+@mixin description {
+  font-family: EB Garamond;
+  line-height: 1.5;
+  padding-top: 1%;
+  color: $darkGray;
+  letter-spacing: 2px;
+  margin: auto;
 }
 
 .landing {
@@ -67,7 +76,7 @@ a {
   background-color: $blue;
 }
 
-h1.welcome {
+.welcome {
     text-align: center;
     padding-top: 20%;
     color: $accentPink;
@@ -78,18 +87,23 @@ h1.welcome {
 }
 
 .work--title {
-@include headings;
+@include heading;
   font-size: 1.5em;
 }
 
 .work--description {
-  font-family: EB Garamond;
+@include description;
   font-size: 1.1em;
-  line-height: 1.5;
-  padding-top: 1%;
-  color: $darkGray;
-  letter-spacing: 2px;
-  margin: auto;
+}
+
+.biography--title {
+  @include heading; 
+  font-size: 2em;
+}
+
+.biography--description {
+ @include description;
+ font-size: 1.4em; 
 }
 
 .work--tools {

@@ -375,7 +375,7 @@ a {
   background-color: RGBA(173, 204, 232, 0.7);
 }
 
-h1.welcome {
+.welcome {
   text-align: center;
   padding-top: 20%;
   color: #e6338a;
@@ -396,12 +396,31 @@ h1.welcome {
 
 .work--description {
   font-family: EB Garamond;
-  font-size: 1.1em;
   line-height: 1.5;
   padding-top: 1%;
   color: #3E3C41;
   letter-spacing: 2px;
   margin: auto;
+  font-size: 1.1em;
+}
+
+.biography--title {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2%;
+  color: #e6338a;
+  letter-spacing: 5px;
+  font-size: 2em;
+}
+
+.biography--description {
+  font-family: EB Garamond;
+  line-height: 1.5;
+  padding-top: 1%;
+  color: #3E3C41;
+  letter-spacing: 2px;
+  margin: auto;
+  font-size: 1.4em;
 }
 
 .work--tools {
