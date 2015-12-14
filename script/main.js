@@ -1,13 +1,13 @@
 $(document).ready(function() {
- console.log(" you can do this !");
+ console.log(" look ma! i'm famous! ");
 });
 
 $(function(){
         $(".welcome").typed({
-            strings: ["hello world"],
-            typeSpeed: 100,
+            strings: ["hello world !"],
+            typeSpeed: 90,
             startDelay: 800,
-            backDelay: 4000,
+            backDelay: 1500,
             backSpeed: 100,
             loop: true,
             showCursor: false,

@@ -20,6 +20,14 @@ a {
     top: 0%;
 }
 
+@mixin headings {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2%;
+  color: $accentPink;
+  letter-spacing: 5px;
+}
+
 .landing {
     @include section-size;
     background-color: $white;
@@ -70,11 +78,8 @@ h1.welcome {
 }
 
 .work--title {
-  text-align: center;
-  padding-top: 2%;
-  color: $accentPink;
+@include headings;
   font-size: 1.5em;
-  letter-spacing: 5px;
 }
 
 .work--description {

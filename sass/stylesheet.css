@@ -387,10 +387,11 @@ h1.welcome {
 
 .work--title {
   text-align: center;
+  text-transform: uppercase;
   padding-top: 2%;
   color: #e6338a;
-  font-size: 1.5em;
   letter-spacing: 5px;
+  font-size: 1.5em;
 }
 
 .work--description {
